@@ -15,7 +15,7 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.braderselva.com
-          username: braderse
+          server: ftpupload.net
+          username: if0_35561351
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: public_html/cd1/
+          server-dir: htdocs/cd1/
